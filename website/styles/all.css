@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container{
+  background-color: white;
+  text-align: center;
+}
+
+nav{
+  margin-top: -5px;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #003C73;
+}
+
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 18px;
+  text-decoration: none;
+}
+
+.content{
+  overflow: hidden;
+}
+
+.active {
+  background-color: #EE4037;
+}
+
+.description{
+  text-align: left;
+}
+
+#band, h1, h2{
+  padding-bottom: 20px;
+}
+
+#dates{
+  padding: 20px;
+}
+
+#flyer{
+  padding-bottom: 30px;
+}
+
+h1,h2{
+  font-family: cursive;
+}
+
+.photographer, .photographer_label, #dl_label{
+  font-style: italic;
+  font-size: 12px;
+}
+
+.photographer{
+  text-align: left;
+}
+
+.photographer_label{
+  margin-top: -20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#dl_label, #commons{
+  padding-bottom: 20px;
+}
+
+.citations{
+  padding-top: 50px;
+  text-align: left;
+  font-size: 12px;
+  font-style: italic;
+}
+
+footer{
+  padding-bottom: 15px;
+}

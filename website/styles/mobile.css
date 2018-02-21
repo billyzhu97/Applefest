@@ -1,0 +1,73 @@
+@media only screen and (max-width: 479px) {
+
+  nav  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li a {
+    font-size: 14px;
+    display: block;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+
+  img, #footer, .container, #map{
+    width: 100%;
+  }
+
+  .content{
+    padding: 20px 20px 0px 20px;
+  }
+
+  #banner{
+    display: none;
+  }
+
+  h1{
+    font-size: 2.5em;
+  }
+
+  #dates{
+    padding: 20px 0px;
+  }
+
+  .description{
+    padding: 0px;
+    text-align: left;
+  }
+
+  #map{
+    padding-bottom: 0px;
+  }
+
+  .source{
+    text-align: left;
+  }
+
+  .pic_text{
+    text-align: left;
+    padding-left: 10px;
+    width: 120px;
+    font-size: 12px;
+  }
+
+  .photographer{
+    padding-bottom: 12px;
+    font-size: 10px;
+  }
+
+  #table-links{
+    display: none;
+  }
+
+  #mobile_apps{
+    padding-top: 20px;
+    text-align: left;
+  }
+
+  .citations{
+      padding-left: 20px;
+  }
+}

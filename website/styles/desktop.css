@@ -1,0 +1,113 @@
+@media only screen and (min-width: 480px) {
+  body{
+    background-color: #eceaea;
+  }
+
+  .container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  #mobile_banner{
+    display: none;
+  }
+
+  nav li{
+    float: left;
+  }
+
+  nav li:last-child{
+    float: right;
+  }
+
+  .active {
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+  }
+
+  h1{
+    font-size: 4em;
+  }
+
+  h2{
+    font-size: 2.5em;
+  }
+
+  .content{
+    padding: 20px 50px 0px 50px;
+  }
+
+  .description{
+    padding: 0px 200px 0px 200px;
+  }
+
+  #map{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 900px;
+  }
+
+  #park_info{
+    padding-top: 20px;
+  }
+
+  #info_head{
+    padding-bottom: 0px;
+  }
+
+  #band{
+    width: 800px;
+  }
+
+  table{
+    margin: 0 auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+
+  td, th{
+    border: 1px solid #003C73;
+    padding: 8px;
+  }
+
+  #table-links th{
+    background-color:#EE4037;
+    font-size: 20px;
+    color: white;
+  }
+
+  td{
+    text-align: left;
+  }
+
+  td:first-child + td{
+    width: 200px;
+  }
+
+  #mobile_apps{
+    display: none;
+  }
+
+  #gal_table td{
+    border: none;
+  }
+
+  .gal_img{
+    float:left;
+    width: 500px;
+  }
+
+  .pic_text{
+    font-size: 24px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top:100px;
+    padding-bottom: 200px;
+    width: 500px;
+    float: left;
+  }
+
+  .citations{
+    padding-left: 250px;
+  }
+}
